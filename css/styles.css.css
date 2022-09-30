@@ -47,9 +47,7 @@ nav {
 }
 
 /* suppression couleur bleu par défaut des liens */
-nav a: link{
-    color: #52474d;
-}
+
 /* style bouton connexion */
 .boutonConnexion {
     border: 1px solid #52474d; padding: 6px;
