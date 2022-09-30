@@ -89,7 +89,7 @@ nav {
 
 /* image arrière plan de la section bienvenue */
 #bienvenue {
-    background-image: url(../images/BackgroundCafe.jpg);
+    background-image: linear-gradient(to bottom, #FFF, #fff8),url(../images/BackgroundCafe.jpg);
        
 
 }
