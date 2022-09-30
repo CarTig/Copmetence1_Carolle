@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'MonicaSalonShadowNF';
+    src: url(../polices/monicas-salon-shadow/MonicasSalonShadowNF.ttf);
+
+}
+
+@font-face {
+    font-family:'BellotaItalic' ;
+    src: url(../polices/bellota/Bellota-Italic.otf);
+}
+
+
+@font-face {
+    font-family: 'Bellota';
+    src: url(../polices/bellota/Bellota-Regular.otf);
+    src: url(../polices/bellota/Bellota-Bold.otf);
+    
+}
+
+
+body {
+    
+    font-family: 'Bellota';
+    color: #52474d;
+    background-color: rgba(102, 173, 139, 0.1);
+}
+/* ------------------------style des h1--------------------------- */
+
+.h1vert {
+    font-family: 'MonicaSalonShadowNF';
+    text-align: center;
+    font-size: 60px;
+    color: rgb(102, 173, 139);
+
+}
+
+.h1marron {
+    font-family: 'MonicaSalonShadowNF';
+    text-align: center;
+    font-size: 60px;
+    color: rgb(81,71,77);
+}
+/* -------------------style de la nav bar---------------------------- */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+/* style bouton connexion */
+.boutonConnexion {
+    border: 1px solid #52474d; padding: 6px;
+    border-radius:20px;
+    text-decoration: none;
+}
+.boutonConnexion:hover {
+    background-color: rgb(255, 255, 241);
+    color: #e87669;
+}
+.boutonConnexion:focus {
+    border: 3px dotted #e87669;
+    border-radius: 15px;
+}
+
+/* ---------------------style parties bienvenue et programme------------ */
+.bienvenueEtProgramme {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.bienvenueEtProgramme p {
+    text-align: center;
+    font-size: 50px;
+    padding-top:0px ; 
+}
+
+/* style bouton type programme */
+.boutonprogramme {
+    border: 1px solid #52474d; padding: 20px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: rgba(81, 71, 77, 0.7);
+    color: #FFFDF2;
+}
+
+.boutonprogramme:hover {
+    color: #e87669;
+    border-radius: 20px;
+}
+
+/* image arrière plan de la section bienvenue */
+#bienvenue {
+    background-image: url(../images/BackgroundCafe.jpg);
+       
+
+}
+
+
+/* -----------------style div vide pour espacement----------------- */
+.vide1 {
+    width: 800px;
+    height: 50px;
+}
+/* --------------------style de la partie citation et article--------------- */
+.citationArticle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.citationArticle article {
+    width: 600px;
+}
+
+.h2citation {
+    text-align: center;
+    font-size: 40px;
+}
+
+.texteCitation {
+    font-size: 30px;
+    font-family: 'BellotaItalic';
+    
+}
+
+.h3article {
+    text-align: center;
+    font-size: 35px;
+}
+/* ---------------------style du footer-------------------------- */
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer .politique {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.politique {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.avis {
+display: flex;
+flex-direction: column;
+
+}
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.socialMedia img {
+    height: 30px;
+    width: 30px;
+
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
