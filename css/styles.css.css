@@ -44,6 +44,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 /* suppression couleur bleu par défaut des liens */
@@ -51,23 +52,32 @@ nav {
 
 /* redimentionnement logo nav bar */
 nav img {
-    height: 50px;
+    height: 60px;
 }
 
-nav div img {
-    width: 80px;
+.divlogo {
+    width: 20%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
-
+.divaccueil {
+    width: 80%;
+    display: flex;
+    justify-content: space-around; 
+}
+nav a {
+    text-decoration: none;
+    color: #52474d;
+}
 /* style bouton connexion */
 .boutonConnexion {
     border: 1px solid #52474d; padding: 6px;
     border-radius:20px;
-    text-decoration: none;
+    border-color: #52474d;
 }
+
 .boutonConnexion:hover {
-    background-color: rgb(255, 255, 241);
+    background-color: rgba(252, 208, 74,0.5);
     color: #e87669;
 }
 .boutonConnexion:focus {
