@@ -65,6 +65,7 @@ nav img {
     display: flex;
     justify-content: space-around; 
 }
+/* sippression couleur bleu nav bar */
 nav a {
     text-decoration: none;
     color: #52474d;
@@ -118,7 +119,10 @@ nav a {
        
 
 }
-
+/* image arrière plan programmes */
+#programmes {
+    background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.657)),url(../images/feuillesPales1.jpg) ;
+}
 
 /* -----------------style div vide pour espacement----------------- */
 .vide1 {
@@ -187,5 +191,9 @@ section ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+
+footer div a {
+    color: rgb(102, 173, 139);
 }
 
