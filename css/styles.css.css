@@ -48,6 +48,11 @@ nav {
 
 /* suppression couleur bleu par défaut des liens */
 
+
+/* redimentionnement logo nav bar */
+nav img {
+    height: 50px;
+}
 /* style bouton connexion */
 .boutonConnexion {
     border: 1px solid #52474d; padding: 6px;
