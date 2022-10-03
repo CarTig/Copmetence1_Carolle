@@ -53,6 +53,13 @@ nav {
 nav img {
     height: 50px;
 }
+
+nav div img {
+    width: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 /* style bouton connexion */
 .boutonConnexion {
     border: 1px solid #52474d; padding: 6px;
